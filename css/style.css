@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/** font-family: 'Poppins', sans-serif;**/
+
+/**border-radius: lo usamos para redondear las puntas de un cuadrado generado con width, podemos formar un circulo**/
+/** box-shadow es para generar sombra  al cuadrado generado. Ver páginas web que pasó el profe ya que generalmente se realizan por ese medio **/
+/** display: flex; lo usamos para iniciar Flex **/
+/** flex direction lo usamos para determinar en que eje movemos los elementos **/
+/** justify-content: space-evely / space arround, etc lo usamos para determinar donde queremos posicionarlso **/
+/** con column gap, row gap o de manera abreviada gap tmb le damos separaciones como con paddin**/
+body{
+    background: linear-gradient(to top right, rgb(17, 17, 219), rgb(25, 25, 83), rgb(5, 5, 83) )
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: rgb(147, 195, 36);
+}
+
+header nav div{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: blue;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px blue;
+    padding : 10px 30px 10px 30px;
+}
+
+.navBar{
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+.navBar li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    letter-spacing: 3px;
+    padding: 20px;
+
+}
+
+#SL{
+    padding-left: 850px;
+}
+.searchLog{
+    padding-right: 10px;
+}
+
+/**
+.navBar a:hover{
+    font-size: 24px;
+}
+**/
+
+/**
+.navLS{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding: 15px;
+}
+**/
+
+.imgPrincipal{
+    text-align: center;    
+}
+
+.bcra{
+text-align: left;
+text-decoration: none;
+letter-spacing: 3px;
+color: blanchedalmond;
+line-height: 25px;
+padding: 10px;
+}
+
+aside span a{
+width: 100%;
+padding: 10px;
+line-height: 23px;
+text-align: right;
+text-decoration: none;
+list-style: none;
+color: darkgray;
+}
+
+.divFooter{
+background-color: rgb(77, 99, 245);
+color: aliceblue;
+font-size: smaller;
+text-align: justify;
+line-height: 20px;
+padding: 10px;
+ }
+
+.redes{
+    background-color:darkgrey;
+    background: linear-gradient(to top right, red, violet, yellow); /** forma de darle degradado al color*/ 
+    padding: 30px;
+}
+
